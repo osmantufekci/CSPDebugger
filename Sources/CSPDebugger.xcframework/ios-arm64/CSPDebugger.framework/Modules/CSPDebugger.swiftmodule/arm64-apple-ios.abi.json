@@ -1,0 +1,592 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DebugManager",
+        "printedName": "DebugManager",
+        "declKind": "Class",
+        "usr": "s:11CSPDebugger12DebugManagerC",
+        "mangledName": "$s11CSPDebugger12DebugManagerC",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DebugSettings",
+        "printedName": "DebugSettings",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CSPDebugger.DebugSettings?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DebugSettings",
+                    "printedName": "CSPDebugger.DebugSettings",
+                    "usr": "c:@M@CSPDebugger@objc(cs)DebugSettings"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CSPDebugger@objc(cs)DebugSettings(im)initWithCoder:",
+            "mangledName": "$s11CSPDebugger13DebugSettingsC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "CSPDebugger",
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "Convenience",
+              "Required"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CSPDebugger@objc(cs)DebugSettings(im)encodeWithCoder:",
+            "mangledName": "$s11CSPDebugger13DebugSettingsC6encode4withySo7NSCoderC_tF",
+            "moduleName": "CSPDebugger",
+            "objc_name": "encodeWithCoder:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DebugSettings",
+                "printedName": "CSPDebugger.DebugSettings",
+                "usr": "c:@M@CSPDebugger@objc(cs)DebugSettings"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CSPDebugger@objc(cs)DebugSettings(im)init",
+            "mangledName": "$s11CSPDebugger13DebugSettingsCACycfc",
+            "moduleName": "CSPDebugger",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CSPDebugger@objc(cs)DebugSettings",
+        "mangledName": "$s11CSPDebugger13DebugSettingsC",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 794,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 972,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1041,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "StringLiteral",
+      "offset": 1813,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2024,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2577,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
+      "kind": "StringLiteral",
+      "offset": 2756,
+      "length": 14,
+      "value": "\"DebuggerCell\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugLogReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 467,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugLogReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 615,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugLogReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1340,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugLogReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1528,
+      "length": 14,
+      "value": "\"DebuggerCell\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 15,
+      "value": "\"debugSettings\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 15,
+      "value": "\"DebugSettings\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/UserDefaults.swift",
+      "kind": "StringLiteral",
+      "offset": 974,
+      "length": 15,
+      "value": "\"debugSettings\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 548,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1192,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 28,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1367,
+      "length": 57,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 14,
+      "value": "\"csp-debuglog\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1922,
+      "length": 5,
+      "value": "\"txt\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2680,
+      "length": 41,
+      "value": "\"Debugger is not allowed to show WebView\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2775,
+      "length": 35,
+      "value": "\"No WebView found, setup a webview\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2947,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3285,
+      "length": 35,
+      "value": "\"Debugger is not allowed to run JS\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3898,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3929,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3957,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3898,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3929,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3957,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4107,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4229,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4702,
+      "length": 15,
+      "value": "\"showTimeStamp\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4773,
+      "length": 18,
+      "value": "\"allowToRunJSCode\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4842,
+      "length": 13,
+      "value": "\"showWebView\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4987,
+      "length": 15,
+      "value": "\"showTimeStamp\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5056,
+      "length": 18,
+      "value": "\"allowToRunJSCode\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Bimser Projects\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5123,
+      "length": 13,
+      "value": "\"showWebView\""
+    }
+  ]
+}
