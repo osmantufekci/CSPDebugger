@@ -16,10 +16,30 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "CSPDebugger"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -182,6 +202,335 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "printLog",
+            "printedName": "printLog(_:separator:terminator:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogType",
+                "printedName": "CSPDebugger.DebugLog.LogType",
+                "hasDefaultArg": true,
+                "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC8printLog_9separator10terminator4typeyypd_S2SAA0bE0V0E4TypeOtF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC8printLog_9separator10terminator4typeyypd_S2SAA0bE0V0E4TypeOtF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "write",
+            "printedName": "write()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC5writeyyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC5writeyyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "read",
+            "printedName": "read()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC4readyyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC4readyyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "export",
+            "printedName": "export()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC6exportyyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC6exportyyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSettings",
+            "printedName": "showSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC12showSettingsyyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC12showSettingsyyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAll",
+            "printedName": "clearAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC8clearAllyyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC8clearAllyyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "share",
+            "printedName": "share()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC5shareyyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC5shareyyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showWebViewDebugger",
+            "printedName": "showWebViewDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC19showWebViewDebuggeryyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC19showWebViewDebuggeryyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "closeWebViewDebugger",
+            "printedName": "closeWebViewDebugger()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC20closeWebViewDebuggeryyF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC20closeWebViewDebuggeryyF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setWebView",
+            "printedName": "setWebView(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC10setWebViewyySo05WKWebF0CF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC10setWebViewyySo05WKWebF0CF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "runJS",
+            "printedName": "runJS(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any?, Swift.Error?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any?, Swift.Error?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Any?, Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger12DebugManagerC5runJS_10completionySS_yypSg_s5Error_pSgtcSgtF",
+            "mangledName": "$s11CSPDebugger12DebugManagerC5runJS_10completionySS_yypSg_s5Error_pSgtcSgtF",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -192,6 +541,297 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DebugLog",
+        "printedName": "DebugLog",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LogType",
+            "printedName": "LogType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "warning",
+                "printedName": "warning",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CSPDebugger.DebugLog.LogType.Type) -> CSPDebugger.DebugLog.LogType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogType",
+                        "printedName": "CSPDebugger.DebugLog.LogType",
+                        "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CSPDebugger.DebugLog.LogType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogType",
+                            "printedName": "CSPDebugger.DebugLog.LogType",
+                            "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11CSPDebugger8DebugLogV0C4TypeO7warningyA2EmF",
+                "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO7warningyA2EmF",
+                "moduleName": "CSPDebugger"
+              },
+              {
+                "kind": "Var",
+                "name": "error",
+                "printedName": "error",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CSPDebugger.DebugLog.LogType.Type) -> CSPDebugger.DebugLog.LogType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogType",
+                        "printedName": "CSPDebugger.DebugLog.LogType",
+                        "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CSPDebugger.DebugLog.LogType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogType",
+                            "printedName": "CSPDebugger.DebugLog.LogType",
+                            "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11CSPDebugger8DebugLogV0C4TypeO5erroryA2EmF",
+                "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO5erroryA2EmF",
+                "moduleName": "CSPDebugger"
+              },
+              {
+                "kind": "Var",
+                "name": "none",
+                "printedName": "none",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CSPDebugger.DebugLog.LogType.Type) -> CSPDebugger.DebugLog.LogType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogType",
+                        "printedName": "CSPDebugger.DebugLog.LogType",
+                        "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "CSPDebugger.DebugLog.LogType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LogType",
+                            "printedName": "CSPDebugger.DebugLog.LogType",
+                            "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11CSPDebugger8DebugLogV0C4TypeO4noneyA2EmF",
+                "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO4noneyA2EmF",
+                "moduleName": "CSPDebugger"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CSPDebugger.DebugLog.LogType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogType",
+                        "printedName": "CSPDebugger.DebugLog.LogType",
+                        "usr": "s:11CSPDebugger8DebugLogV0C4TypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11CSPDebugger8DebugLogV0C4TypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO8rawValueAESgSS_tcfc",
+                "moduleName": "CSPDebugger",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11CSPDebugger8DebugLogV0C4TypeO8rawValueSSvp",
+                "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO8rawValueSSvp",
+                "moduleName": "CSPDebugger",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11CSPDebugger8DebugLogV0C4TypeO8rawValueSSvg",
+                    "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO8rawValueSSvg",
+                    "moduleName": "CSPDebugger",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11CSPDebugger8DebugLogV0C4TypeO",
+            "mangledName": "$s11CSPDebugger8DebugLogV0C4TypeO",
+            "moduleName": "CSPDebugger",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11CSPDebugger8DebugLogV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11CSPDebugger8DebugLogV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CSPDebugger",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11CSPDebugger8DebugLogV",
+        "mangledName": "$s11CSPDebugger8DebugLogV",
+        "moduleName": "CSPDebugger",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -462,6 +1102,41 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 19,
+      "value": "\"DebugSettingsCell\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugSettings.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 8,
+      "value": "\"Deneme\""
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/DebugSettings.swift",
+      "kind": "IntegerLiteral",
+      "offset": 972,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/View\/WebViewDebugger.swift",
       "kind": "StringLiteral",
       "offset": 600,
@@ -576,217 +1251,224 @@
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 923,
+      "offset": 930,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 956,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1204,
+      "offset": 1211,
       "length": 18,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1221,
+      "offset": 1228,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1261,
+      "offset": 1268,
       "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1269,
+      "offset": 1276,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1292,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1352,
+      "offset": 1359,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1379,
+      "offset": 1386,
       "length": 57,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1872,
+      "offset": 1886,
       "length": 14,
       "value": "\"csp-debuglog\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 1934,
+      "offset": 1948,
       "length": 5,
       "value": "\"txt\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2512,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2859,
       "length": 41,
       "value": "\"Debugger is not allowed to show WebView\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 2954,
       "length": 35,
       "value": "\"No WebView found, setup a webview\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2959,
+      "offset": 3126,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3052,
+      "offset": 3226,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3297,
+      "offset": 3485,
       "length": 35,
       "value": "\"Debugger is not allowed to run JS\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 4112,
       "length": 9,
       "value": "\"Warning\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3941,
+      "offset": 4143,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4171,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 4112,
       "length": 9,
       "value": "\"Warning\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3941,
+      "offset": 4143,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4171,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4114,
+      "offset": 4316,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4236,
+      "offset": 4438,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4370,
+      "offset": 4572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 4709,
+      "offset": 4911,
       "length": 15,
       "value": "\"showTimeStamp\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 4780,
+      "offset": 4982,
       "length": 18,
       "value": "\"allowToRunJSCode\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 4849,
+      "offset": 5051,
       "length": 13,
       "value": "\"showWebView\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 4994,
+      "offset": 5196,
       "length": 15,
       "value": "\"showTimeStamp\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 5063,
+      "offset": 5265,
       "length": 18,
       "value": "\"allowToRunJSCode\""
     },
     {
       "filePath": "\/Users\/otufekci\/Documents\/Frameworks\/CSPDebugger\/CSPDebugger\/Manager\/DebugManager.swift",
       "kind": "StringLiteral",
-      "offset": 5130,
+      "offset": 5332,
       "length": 13,
       "value": "\"showWebView\""
     }

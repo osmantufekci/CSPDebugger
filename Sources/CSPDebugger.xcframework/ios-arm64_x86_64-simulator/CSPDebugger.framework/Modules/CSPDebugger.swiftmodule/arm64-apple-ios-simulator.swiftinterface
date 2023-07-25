@@ -11,7 +11,31 @@ import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers public class DebugManager {
   public static var instance: CSPDebugger.DebugManager
+  public func printLog(_ items: Any..., separator: Swift.String = " ", terminator: Swift.String = "\n", type: CSPDebugger.DebugLog.LogType = .none)
+  public func write()
+  public func read()
+  public func export()
+  public func showSettings()
+  public func clearAll()
+  public func share()
+  public func showWebViewDebugger()
+  public func closeWebViewDebugger()
+  public func setWebView(_ webView: WebKit.WKWebView)
+  public func runJS(_ script: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
   @objc deinit
+}
+public struct DebugLog : Swift.Encodable {
+  public enum LogType : Swift.String, Swift.Encodable {
+    case warning
+    case error
+    case none
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @objc @_inheritsConvenienceInitializers public class DebugSettings : ObjectiveC.NSObject, Foundation.NSCoding {
   public static var shared: CSPDebugger.DebugSettings
@@ -20,3 +44,6 @@ import _StringProcessing
   @objc override dynamic public init()
   @objc deinit
 }
+extension CSPDebugger.DebugLog.LogType : Swift.Equatable {}
+extension CSPDebugger.DebugLog.LogType : Swift.Hashable {}
+extension CSPDebugger.DebugLog.LogType : Swift.RawRepresentable {}
