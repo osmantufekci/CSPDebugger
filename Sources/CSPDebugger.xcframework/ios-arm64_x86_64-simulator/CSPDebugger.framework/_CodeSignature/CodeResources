@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/CSPDebugger-Swift.h</key>
 		<data>
-		Sg41PrRCu/RJUrNDz9ct6gJPuZI=
+		rsoFUdC4XcNaC8MFVr1OsWmAzuk=
 		</data>
 		<key>Headers/CSPDebugger.h</key>
 		<data>
@@ -22,27 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XnXKCSpwxBh4NjEyiWSm3iXrHEM=
+		UEbsvUUDcaTZNHQzteACu3NS+Zg=
 		</data>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		rlOUSkkwaHA33Jd13y5w4YEGnvA=
 		</data>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qTlRWCPwYEFh5Q6YpzCJcpgs8to=
+		MgFh4jbcB4GkH6qSHBc8s8Nto30=
 		</data>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zBo3GkINijzjtTvnqT40aYuZnIc=
+		+gKg+YEtJSudavPo1BqcVVfIQEU=
 		</data>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qTlRWCPwYEFh5Q6YpzCJcpgs8to=
+		MgFh4jbcB4GkH6qSHBc8s8Nto30=
 		</data>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		61IL/ZtiafHwwd2FU47QPsCO3LM=
+		yAFgGs5EJ/jIOpP91uJudCRB12M=
+		</data>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		rlOUSkkwaHA33Jd13y5w4YEGnvA=
+		</data>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		zHD7CRme0447g2q01QovfI/aLnM=
+		</data>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		HV3Ti4Mnhy6YTrz+wHgP9gdgQXo=
+		</data>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		zHD7CRme0447g2q01QovfI/aLnM=
+		</data>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		DbjlXDrF5tfv3A7PuJOJR21fNng=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A8WmAoyDv47jraT3nSMizdbp+eNhzXjtASPYN6ZjKoM=
+			+Tq/k6Im+2TYsyiMSoTMszPQYjqMYXhT/ZPw2l9kM9c=
 			</data>
 		</dict>
 		<key>Headers/CSPDebugger.h</key>
@@ -87,39 +107,74 @@
 			rAuodFMK2HBgmC+HtR8tR47WB0/0oQIeJlS+M6paMgY=
 			</data>
 		</dict>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			InkIF05q1d6XBD+8usl/tuBZrMCHuRkPM3SHE1nOlQI=
 			</data>
 		</dict>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OfBtPjVx+tUbRc2CSgMsBI92K9NMBigJu3FK52+b0pM=
+			BvoEk9dPrzHO2zyD9gQu8igBFxKG325SFmZy53YaKGE=
 			</data>
 		</dict>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NW/VvhFDoIYziE+4vi9Oc+XtiGMyxsmSV5pO3MBvtjo=
+			H41vN/Kmvnri5+HYPjN07YQYvqUdz6PVwsbfLg9g37U=
 			</data>
 		</dict>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OfBtPjVx+tUbRc2CSgMsBI92K9NMBigJu3FK52+b0pM=
+			BvoEk9dPrzHO2zyD9gQu8igBFxKG325SFmZy53YaKGE=
 			</data>
 		</dict>
-		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/CSPDebugger.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/jjjKBrEaOrvKbCNFpGsLgOgyqbRFyKZNC8V3FmrJ3w=
+			2wMTF/7UAt9B9Vdg/5jp1sogLaTzHiXSwMSkC1tEtf0=
+			</data>
+		</dict>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			InkIF05q1d6XBD+8usl/tuBZrMCHuRkPM3SHE1nOlQI=
+			</data>
+		</dict>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HNxSi8PMGSJnv3ji25B6rjByrj7N7XSpLKwXt2ZN3Ik=
+			</data>
+		</dict>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TWVkv/lxefWJt/OcWFX5ZSTzhG7Uvlee3vxHCDQWX9M=
+			</data>
+		</dict>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HNxSi8PMGSJnv3ji25B6rjByrj7N7XSpLKwXt2ZN3Ik=
+			</data>
+		</dict>
+		<key>Modules/CSPDebugger.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gWXZWQywy+s7ahv4C49HRqM1HIXM/LmD0zKsICsWWGM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

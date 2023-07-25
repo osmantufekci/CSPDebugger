@@ -1,0 +1,11 @@
+framework module CSPDebugger {
+  umbrella header "CSPDebugger.h"
+
+  export *
+  module * { export * }
+}
+
+module CSPDebugger.Swift {
+  header "CSPDebugger-Swift.h"
+  requires objc
+}

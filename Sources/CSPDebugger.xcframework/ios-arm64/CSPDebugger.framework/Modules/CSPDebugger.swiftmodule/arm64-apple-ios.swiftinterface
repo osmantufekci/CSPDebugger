@@ -10,9 +10,11 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 @_hasMissingDesignatedInitializers public class DebugManager {
+  public static var instance: CSPDebugger.DebugManager
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class DebugSettings : ObjectiveC.NSObject, Foundation.NSCoding {
+  public static var shared: CSPDebugger.DebugSettings
   @objc required convenience public init?(coder decoder: Foundation.NSCoder)
   @objc public func encode(with coder: Foundation.NSCoder)
   @objc override dynamic public init()
